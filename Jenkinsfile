@@ -28,7 +28,7 @@ sh 'mvn deploy'
 }
 stage('tomcat'){
 steps{
-sh 'scp studentapp-2.1.1-FEAT01-SNAPSHOT.war 172.31.95.114:/var/lib/tomcat/webapps'
+sh 'scp studentapp-2.1.1-FEAT01-SNAPSHOT.war 3.88.237.255:/var/lib/tomcat/webapps'
 }
 }
 
